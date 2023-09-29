@@ -1,0 +1,173 @@
+.main {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 2.8fr 1fr;
+    /* grid-gap: 20px; */
+    height: 100vh;
+}
+
+.leftSection {
+    width: 100%;
+}
+
+.leftSection h1 {
+    background-color: #4477CE;
+    color: white;
+    margin-top: 0;
+    padding: 2%;
+}
+
+.body {
+    height: 86.2%;
+}
+
+.chats {
+    width: 95%;
+    height: 84%;
+    margin: auto;
+    border-left: 1px solid rgb(197, 197, 197);
+    border-right: 1px solid rgb(197, 197, 197);
+}
+.chats h3{
+    text-align: center;
+}
+/* User's message */
+.userMessage {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 1%;
+    margin-left: 50%;
+    margin-right: 2%;
+    height: fit-content;
+}
+
+.userInfo {
+    display: flex;
+    flex-direction: row; 
+    /* align-items: flex-end; */
+    justify-content: space-between;
+    background-color: #E4F1FF;
+    width: 100%;
+    min-width: 7rem;
+    margin-bottom: 0.2rem;
+}
+.userInfo h5{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+}
+.first{
+    padding-right: 12%;
+}
+.messageContent {
+    background-color: #E4F1FF;
+    border-radius: 0.8rem;
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    word-wrap: break-word;
+    max-width: 93%;
+}
+.messageContent h4{
+    margin: 0;
+    word-wrap: break-word;
+    text-align: right;
+}
+.messageContent img{
+    width: 20%;
+}
+/* Other user's message */
+.otherMessage {
+    display: flex;
+    width: 55%;
+    margin-bottom: 1%;/* Add some spacing between messages */
+    margin-left: 2%;
+}
+
+.typeBar {
+    position: fixed;
+    bottom: 5%;
+    left: 2%;
+    width: 70%;
+    /* height: auto; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.typeBar button {
+    margin-left: 2%;
+    /* height: 2.3rem; */
+    width: 12%;
+    padding: 0 1% ;
+    margin-top: 0;
+    /* margin; */
+    font-size: 1.5rem;
+}
+.typeBar img{
+    width: 19%;
+    margin-top: 3%;
+    margin-right: 0.5rem;
+}
+
+.typeBar input {
+    width: 80%;
+    /* height: 2.1rem; */
+    /* margin-left: 1%; */
+    font-size: 1.2rem;
+    padding: 0.8% 0.5%;
+}
+
+.inputFile {
+    padding: 0 1% !important;
+    width: fit-content !important;
+}
+
+.rightSection {
+    width: 100%;
+    height: 100%;
+    background-color: #7091F5;
+    color: rgb(237, 237, 237);
+}
+
+.groupHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4477CE;
+    padding: 0.85%;
+}
+
+.createGroupButton {
+    width: fit-content;
+    float: right;
+    background-color: white;
+}
+
+.createGroupButton button {
+    font-size: 1.2rem;
+    height: 2.5rem;
+    /* margin-bottom: 3%; */
+}
+
+.groups button {
+    width: 40%;
+    margin-top: 1%;
+    height: 2.5rem;
+    border: none;
+    font-size: 1.2rem;
+}
+
+.groups button:hover {
+    cursor: pointer;
+    background-color: white;
+}
+
+.users {
+    width: 32.87%;
+    height: 40%;
+    position: fixed;
+    bottom: 0%;
+    background-color: rgb(224, 220, 220);
+    /* margin-left: 1.5%; */
+}

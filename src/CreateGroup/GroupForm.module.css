@@ -1,0 +1,32 @@
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    width: 100%;
+    height: 100vh;
+}
+
+.cointainer {
+    width: 30%;
+    /* height: 30%; */
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 4%;
+}
+
+.cointainer label {
+    font-size: 1.2rem;
+    margin: 3% 0;
+    /* margin-bottom: %; */
+}
+.cointainer input{
+    font-size: 1.1rem;
+    height: 1.9rem;
+}
+.cointainer button {
+    font-size: 1.1rem;
+    margin: 4% 0;
+    padding: 1.2%;
+}

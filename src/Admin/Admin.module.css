@@ -1,0 +1,104 @@
+.main {
+    width: 100%;
+    height: 100%;
+    background-color: #7091F5;
+    color: rgb(237, 237, 237);
+}
+
+.image {
+    display: flex;
+    align-items: center;
+    width: 79%;
+    margin-bottom: 1%;
+    background-color: #4477CE !important;
+    padding: 1%;
+}
+
+.image img {
+    width: 9%;
+    margin: auto;
+    margin-right: 5%;
+}
+
+.image h1 {
+    width: fit-content;
+    margin: auto;
+    margin-left: 0;
+}
+
+.members {
+    /* background-color: antiquewhite; */
+    height: 100%;
+    width: 90%;
+    margin-left: 5%;
+}
+
+.eachUser {
+    display: flex;
+    flex-direction: row;
+}
+
+.eachUser h4 {
+    font-size: 1.17rem;
+    padding: 0.6%;
+    /* margin-bottom: 0; */
+    margin: 0;
+}
+
+.eachUser span {
+    margin-left: 3%;
+    padding: 0;
+    height: 1%;
+}
+
+.eachUser span:hover {
+    cursor: pointer;
+    font-size: 1.1rem;
+}
+
+.eachUser h6 {
+    font-size: 1rem;
+    padding: 6% 0;
+    /* margin-bottom: 0; */
+    margin: 0;
+}
+
+.addParticipant {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.addButton {
+    right: 6.3%;
+    padding: 0.4% 0.6%;
+}
+
+.cancelButton {
+    right: 1%;
+    padding: 0.4% 0.8%;
+}
+
+.participant button {
+    position: fixed;
+    bottom: 1%;
+    width: auto;
+    font-size: 1.05rem;
+}
+
+.addParticipant input {
+    position: fixed;
+    bottom: 1%;
+    margin-left: 1.7%;
+    width: 13.5%;
+    /* height: 1.53rem; */
+    padding: 0.4%;
+    font-size: 1.1rem;
+}
+
+.addParticipant button {
+    position: fixed;
+    /* padding: 0 1%; */
+    bottom: 1%;
+}

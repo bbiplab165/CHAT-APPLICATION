@@ -1,0 +1,47 @@
+.pageContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.main{
+    width: 40%;
+    height: auto;
+    border: solid 1px ;
+    /* margin-top: 5%; */
+}
+.main h3{
+    margin: 2.5%;
+    margin-left: 3%;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    padding:0 3%;
+}
+
+.container input{
+    margin-top:  2.5%;
+    margin-bottom: 3%;
+    height: 2rem;
+    font-size: 1.1rem;
+}
+/* .container label{
+    margin-top: 2%;
+} */
+.main button{
+    margin-left: 3%;
+    width: 94%;
+    height: 2.2rem;
+    font-size: 1.1rem;
+}
+.main h4{
+    margin-left: 3%;
+}
+.main span{
+    color: blue;
+}
+.main span:hover{
+    cursor: pointer;
+    color: red;
+}

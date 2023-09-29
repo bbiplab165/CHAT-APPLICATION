@@ -1,0 +1,47 @@
+.main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login{
+    width: 30%;   
+    /* height: 35%;  */
+    border: solid 1px;
+}
+.login h2{
+    margin-left: 3%;
+    margin-bottom: 0;
+}
+.Container{
+    display: flex;
+    flex-direction: column;
+    margin: 0 3%;
+}
+.Container label{
+    margin: 3% 0;
+}
+.Container input{
+    height: 2rem;
+    font-size: 1.1rem;
+}
+.login button{
+    margin: 3%;
+    height: 2.5rem;
+    width: 94%;
+    margin-top: 5%;
+    font-size: 1.1rem;
+}
+.login h4{
+    margin-left: 3%;
+    margin-top: 2%;
+}
+.login span{
+    color: blue;
+    margin-left: 1.8%;
+}
+.login span:hover{
+    cursor: pointer;
+    color: red;
+}

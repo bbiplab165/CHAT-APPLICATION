@@ -1,0 +1,49 @@
+.main{
+    width: 100%;
+    height: 100vh;
+    background-color: red;
+    /* margin-top: -5%; */
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.cointainer{
+    width: 40%;
+    height: auto;
+    background-color: white;
+}
+.cointainer h1{
+    /* margin-left: 20%; */
+    margin: auto;
+    width: fit-content;
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+.groups{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+    height: 2rem;
+    margin-bottom: 2%;
+    font-size: 1.3rem;
+    /* background-color: gray; */
+    /* background-color: black; */
+}
+.createGroup{
+    width: 20%;
+    height: 2rem;
+    margin-bottom: 4%;
+    margin-top: 2%;
+    font-size: 1.1rem;
+    margin-left: 60%;
+}
+
+.cointainer h3{
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 5%;
+}
